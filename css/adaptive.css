@@ -1,0 +1,50 @@
+@media screen and (max-width: 480px) {
+  .text {
+    left: 176px;
+    top: 316px;
+    font-size: 16px;
+  }
+
+  #up {
+    border-top: 70px solid #f06060;
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+    left: 30px;
+  }
+
+  #r {
+    border-right: 70px solid #10a296;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    left: 100px;
+  }
+
+  #dn {
+    border-bottom: 70px solid #fa987d;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    top: 70px;
+    left: 30px;
+  }
+
+  #l {
+    border-left: 70px solid #72cca7;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .text {
+    font-size: 16px;
+    left: 132px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .text {
+    font-size: 16px;
+    left: 95px;
+  }
+}
