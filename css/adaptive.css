@@ -1,8 +1,9 @@
 @media screen and (max-width: 480px) {
   .text {
-    left: 176px;
-    top: 316px;
     font-size: 16px;
+    left: 30px;
+    top: 80%;
+    /* bottom: -50px; */
   }
 
   #up {
@@ -35,23 +36,11 @@
   }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 768px) {
   .text {
     font-size: 16px;
-    left: 144px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .text {
-    font-size: 16px;
-    left: 132px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .text {
-    font-size: 16px;
-    left: 95px;
+    left: 30px;
+    top: 190px;
+    /* bottom: -100px; */
   }
 }

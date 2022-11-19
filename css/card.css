@@ -3,6 +3,7 @@ section {
   height: 200px;
   margin: 0 auto;
   margin-top: 150px;
+  position: relative;
 }
 
 section > button {
@@ -32,8 +33,11 @@ button:hover {
   font-family: "Poiret One";
   font-size: 22px;
   position: absolute;
-  left: 635px;
-  top: 330px;
+  width: 140px;
+  top: 88%;
+  left: 30px;
+  margin: 0;
+  margin-top: -15px;
 }
 
 ul {
